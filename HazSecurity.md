@@ -1,0 +1,8 @@
+#### Dependencies: none
+A very easy-to-digest security system for claiming blocks and areas. A security tool is used to define what regions are claimed.
+- Sneak-scrolling with the security tool will scroll through 16 different colour frequencies, including a removal option, and a config option.
+- Each frequency can be individually access-controlled, e.g. a player might decide to use white for public use and black for strictly them only, green for friends A and B, blue for friends B and C
+- Right-clicking while the config option is selected will bring up a basic overview of all the regions the player has created. It will list the number of blocks in each region, and will allow for custom names, config for player whitelists, etc. The player can also remove entire regions by colour, or merge one colour into another.
+- While holding the security tool, boxes will show around all regions selected, coloured appropriately. Regions owned by others will also show up, in red with diagonal stripes, and looking directly at the region will show the owner.
+- Right-clicking any block with the security tool with a colour frequency selected will lock the block to the currently selected frequency.
+- Sneak-right-clicking will select a starting and end point for a rectangle shape which will lock every single block contained within it. If blocks of other frequencies are detected inside the rect, a UI will pop up, asking the player whether or not to override on a per-colour basis. (Black-frequency blocks detected. Override? [y/n])
